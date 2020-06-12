@@ -80,15 +80,5 @@ public class LibraryController {
         model.addAttribute("books", service.findAll());
         return "books";
     }
-    @GetMapping("/s1")
-    public String showh1(Model model) {
-        return "h1";
-    }
-    
-    @RequestMapping(value="sname", method=RequestMethod.GET)
-	 public String searchInfoByName(ModelMap model,@RequestParam(name="name") String name){
-    	List<Book> books=service.searchName(name);
-			 model.addAttribute("books", books);
-			 return "sname1"; 
-    }  
+   
 }
