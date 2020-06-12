@@ -11,7 +11,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface BookRepository extends CrudRepository<Book, Long> {
-
-	@Query("SELECT b FROM Book b where b.name=?1")
-	public List<Book> getByName(String name);
 }
