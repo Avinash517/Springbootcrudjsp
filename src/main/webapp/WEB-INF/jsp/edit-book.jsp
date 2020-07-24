@@ -18,19 +18,19 @@
                             Id: ${book.id}
                         </div>
                         <div>
-                            <form:label path="author">Author</form:label>
+                            <form:label path="author">Author Name</form:label>
                             <form:input type="text" id="author" path="author"/>
                             <form:errors path="author" />
                         </div>
                         <div>
-                            <form:label path="name">Name</form:label>
+                            <form:label path="name">Book Name</form:label>
                             <form:input type="text" id="name" path="name"/>
                             <form:errors path="name" />
                         </div>
                     </div>
                     <div>
                         <div>
-                            <input type="submit" value="Update User">
+                            <input type="submit" value="Update">
                         </div>
                     </div>
                 </form:form>
