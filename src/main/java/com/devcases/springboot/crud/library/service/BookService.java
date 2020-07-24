@@ -40,9 +40,4 @@ public class BookService {
         repository.deleteById(id);
     }
     
-    
-    public List<Book> searchName(String name) {
-		return repository.getByName(name);
-	}
-    
 }
