@@ -12,10 +12,6 @@
         <div>
             <h2>Library</h2>
             <hr/>
-            <a href="/s1">
-                <button type="submit">Search</button>
-            </a>
-            
             <a href="/new-book">
                 <button type="submit">Add new book</button>
             </a>
