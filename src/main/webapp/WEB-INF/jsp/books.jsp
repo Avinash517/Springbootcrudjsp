@@ -24,8 +24,8 @@
                     <table>
                         <tr>
                             <th>Id</th>
-                            <th>Author</th>
-                            <th>Name</th>
+                            <th>Author Name</th>
+                            <th>Book Name</th>
                         </tr>
                         <c:forEach var="book" items="${books}">
                             <tr>
@@ -34,6 +34,8 @@
                                 <td>${book.name}</td>
                                 <td>
                                     <a href="/${book.id}">Edit</a>
+                                </td>
+                                <td>
                                     <form action="/${book.id}/delete" method="post">
                                         <input type="submit" value="Delete" />
                                     </form>
